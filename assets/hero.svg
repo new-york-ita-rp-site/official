@@ -1,0 +1,11 @@
+<svg width="900" height="650" viewBox="0 0 900 650" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="650" rx="42" fill="#15152B"/>
+  <circle cx="725" cy="120" r="120" fill="#9B5CFF" opacity="0.35"/>
+  <circle cx="175" cy="520" r="150" fill="#00D2FF" opacity="0.18"/>
+  <rect x="145" y="130" width="610" height="360" rx="28" fill="#0B0B18" stroke="#9B5CFF" stroke-width="5"/>
+  <rect x="185" y="175" width="530" height="235" rx="18" fill="#222244"/>
+  <path d="M415 238L545 305L415 372V238Z" fill="#9B5CFF"/>
+  <rect x="185" y="438" width="250" height="22" rx="11" fill="#00D2FF" opacity="0.75"/>
+  <rect x="455" y="438" width="260" height="22" rx="11" fill="#9B5CFF" opacity="0.75"/>
+  <text x="450" y="560" text-anchor="middle" fill="white" font-family="Arial" font-size="54" font-weight="800">STREAMHUB</text>
+</svg>

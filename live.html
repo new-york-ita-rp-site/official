@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Live - StreamHub</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/config.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="index.html">StreamHub</a>
+    <button class="menu-btn" id="menuBtn">☰</button>
+    <nav id="navMenu">
+      <a href="index.html">Home</a>
+      <a href="live.html">Live</a>
+      <a href="community.html">Community</a>
+      <a href="plans.html">Abbonamenti</a>
+      <a href="contact.html">Contatti</a>
+    </nav>
+  </header>
+
+  <main class="page">
+    <h1>Live Streaming</h1>
+    <p class="subtitle">Segui le dirette e resta aggiornato sui prossimi eventi.</p>
+
+    <section class="stream-layout">
+      <div class="stream-box">
+        <iframe
+          id="twitchEmbed"
+          title="Twitch Stream"
+          src=""
+          allowfullscreen>
+        </iframe>
+      </div>
+      <aside class="side-panel">
+        <h2>Prossimi contenuti</h2>
+        <ul>
+          <li>🎮 Gameplay live</li>
+          <li>🏆 Tornei community</li>
+          <li>💬 Chat con gli iscritti</li>
+          <li>🎁 Giveaway e premi</li>
+        </ul>
+        <a class="btn primary full" id="twitchBtn2" href="#" target="_blank">Apri Twitch</a>
+      </aside>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> StreamHub.</p>
+  </footer>
+</body>
+</html>
